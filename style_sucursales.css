@@ -1,0 +1,158 @@
+header{
+    background: url("../../static/img/Fondo2.png");
+    background-size: cover;
+}
+
+.logo{
+    align-items: center;
+    width: 150px;
+    object-fit: cover; 
+    object-position: center;
+    border-radius: 75%;
+}
+
+#nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(52, 50, 50);
+    margin-left: 0;
+    margin-right: 40px;
+}
+
+
+nav{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+li{
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+a{
+    color: rgb(52, 50, 50);
+    text-decoration: none;
+    
+
+}
+a:hover{
+    color: gold;
+}
+
+
+
+
+
+#title-pag{
+    margin: 0px 40px;
+}
+
+
+
+
+
+.sucursales{
+
+    color:white;
+    padding: 40px;
+
+}
+
+.sucursales_txt{
+    padding: 30px;
+    background: rgba(45, 46, 46, 0.4);
+    border-radius: 15px;
+    width: 60%;
+    font-family: 'Roboto', sans-serif;
+}
+    .sucursales_title {
+        font-size: 40px;
+        margin-bottom: 30px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    .sucursales_p{
+        font-size: 18px;
+        display: inline;
+    }
+
+    .link_formulario{
+        color: white;
+        font-size: 18px;
+        text-decoration: underline;
+    }
+
+    .link_formulario:hover{
+        color: gold;
+    }
+
+.sucursales_mapas{
+    background: url("../../static/img/Fondo.webpxxx");
+    background-size: cover;
+    margin: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sucursal{
+   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin:40px;
+ 
+
+}
+
+.sucursal:hover{
+    background: rgb(45, 46, 46, 0.5);  
+    border-radius: 15px;
+}
+.sucursal_datos{
+    padding-left: 20px;
+    color: rgb(52, 50, 50);
+}
+
+.nombre{
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+.direccion, .codigo_postal, .horario, .telefono{
+    font-size: 16px;
+    margin-bottom: 10px;
+    
+}
+.direccion::before{
+    content: "Dirección: ";
+    font-weight: bold;
+}
+.codigo_postal::before{
+    content: "Código Postal: ";
+    font-weight: bold;
+}
+.horario::before{
+    content: "Horario: ";
+    font-weight: bold;
+}
+.telefono::before{
+    content: "Teléfono: ";
+    font-weight: bold;
+}
+.e-mail::before{
+    content: "E-mail: ";
+    font-weight: bold;
+}
+.e-mail:hover{
+    text-decoration: underline;
+}
+.sucursales_mapa{
+    border: 2px solid black;
+    border-radius: 3px;
+    padding: 10px;
+    
+}

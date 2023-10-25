@@ -1,0 +1,128 @@
+header{
+    background: url("../../static/img/Fondo4.png");
+    background-size: cover;
+}
+
+.logo{
+    align-items: center;
+    width: 150px;
+    object-fit: cover; 
+    object-position: center;
+    border-radius: 75%;
+}
+
+#nav-bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    color: rgb(52, 50, 50);
+    margin-top: 16px;
+
+
+}
+
+nav{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+ul{
+    margin: 0 40px;
+    padding: 0;
+}
+li{
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+a{
+    color: rgb(52, 50, 50);
+    text-decoration: none;
+
+}
+a:hover{
+    color: gold;
+}
+
+.quienes_somos{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding: 40px;
+    color:white;
+    
+}
+.quienes_somos_container{
+    width: 50%;
+    padding: 40px;
+    background: rgba(45, 46, 46, 0.4);
+    border-radius: 15px;
+ }
+
+.quienes_somos_title {
+    font-size: 40px;
+    padding: 20px 0px 20px 0px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.quienes_somos p{
+    margin-left: 50px;
+    margin-right: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 2;
+
+}
+.link_formulario{
+    color: white;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+.team {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 35px 5px 20px 5px;
+}
+
+
+.person{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+ 
+}
+img{
+    align-items: center;
+    width: 100%;
+    object-fit: cover; 
+    object-position: center;
+    border-radius: 75%;
+}
+.name{
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: rgb(52, 50, 50);
+}
+
+.cargo{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-style: italic;
+    color: rgb(52, 50, 50);
+}
+
